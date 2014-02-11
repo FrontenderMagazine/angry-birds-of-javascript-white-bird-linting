@@ -1,4 +1,6 @@
-<section class="post-content">
+# Angry Birds of JavaScript- White Bird: Linting
+
+
 ## Introduction
 
 ![][1] 
@@ -17,7 +19,13 @@ JavaScript!
 > and their attack powers.
 >![][3] 
 
+
 ### Previous Attacks
+
+* [Red Bird - IIFE][20]
+* [Blue Bird - Events][21]
+* [Yellow Bird - RequireJS][22]
+* [Black Bird - Backbone][23]
 
 ### White Bird Attacks
 
@@ -25,6 +33,7 @@ In this post we will take a look at the White Bird who appears to be seemingly
 harmless, but when it pulls out it's strict coding style and bursts of quality 
 checks the hogs are sure to squeal. Slowly, one by one, the birds will take back
 what it theirs to keep!
+
 
 ## What Was Stolen by the Pigs?
 
@@ -43,6 +52,7 @@ document and their code quality tools! As a result, one of the White Birds has
 been tasked to reclaim what has been stolen. He will use his overwhelming power 
 of quality to help destroy the pigs in order to take back what is theirs.
 
+
 ## JavaScript Coding Standards
 
 There are many coding standards out there to choose from. The most important
@@ -50,20 +60,21 @@ thing is that you pick one and stick to it. If you are working with a team, they
 should also agree on some standard. If you can't find a standard you exactly 
 agree on, then find one that is close and make some exceptions.
 
-By doing so you'll find that...
+By doing so you'll find that…
 
 *   A developer will be able to make sense of other code more quickly
 *   Merges in your code repository won't be as awful
 *   Having a standard will actually reduce defects
 *   The codebase will feel more unified
 *   Disagreements about who is "right" will lessen
-*   ... insert your benefit here ...
+*   … insert your benefit here …
 
-Here are some of the coding standards that I am aware of...
+Here are some of the coding standards that I am aware of…
 
 Addy Osmani ([@addyosmani][4]) has a nice post entitled 
 [JavaScript Style Guides And Beautifiers][5] that covers some of these styles
 in depth with examples showing how to abide by the standards recommended.
+
 
 ## JavaScript Linting
 
@@ -78,13 +89,13 @@ I've enjoyed watching the project grow and see bugs and new features being added
 JSHint has a lot of options that you can choose to opt-in or opt-out of which 
 enables a team to figure out what works best for them.
 
-Some of the standard checks that JSHint can verify include...
+Some of the standard checks that JSHint can verify include…
 
 *   The use of `===` instead of `==` 
 *   Using variables that aren't defined
 *   Declaring variables that are never used
 *   Declaring functions inside of loops
-*   And lots more...
+*   And lots more…
 
 For a full list of options see the [JSHint Docs][8].
 
@@ -113,6 +124,8 @@ choice:
 > In the Mighty Eagle post we'll talk about another way to use the JSHint from
 > the command line and automatically.
 >
+
+
 ## JavaScript Analysis
 
 Code linting is great, but sometimes it is nice to get a high level overview of
@@ -146,6 +159,7 @@ tool is identifying.
 
 You can view the above [jQuery Report][13] from Plato's GitHub repository.
 
+
 ## Attack!
 
 The following is a simple Angry Birds clone using [boxbox][14], a framework for
@@ -166,9 +180,8 @@ project a success.
 
 There are many other front-end architecture techniques that have been stolen by
 the pigs. Tune in next time as the next Angry Bird takes its revenge! Dun, dun, 
-daaaaaaa!</section>
+daaaaaaa!
 
-[.][19]
 
  [1]: img/angry_birds_wall_decal_by_graphicwolf-d4fwzrc.jpg
  [2]: http://www.elijahmanor.com/2013/03/angry-birds-of-javascript-series.html
@@ -188,4 +201,7 @@ daaaaaaa!</section>
  [16]: http://bocoup.com/
  [17]: http://twitter.com/_gsmith
  [18]: img/Screenshot+on+4.4.2013+at+12.14.59+AM.png
- [19]: http://www.elijahmanor.com/ghost/editor/552/
+ [20]: http://www.elijahmanor.com/angry-birds-of-javascript-red-bird-iife/
+ [21]: http://www.elijahmanor.com/angry-birds-of-javascript-blue-bird-events/
+ [22]: http://www.elijahmanor.com/angry-birds-of-javascript-yellow-bird-requirejs/
+ [23]: http://www.elijahmanor.com/angry-birds-of-javascript-black-bird-backbone/
